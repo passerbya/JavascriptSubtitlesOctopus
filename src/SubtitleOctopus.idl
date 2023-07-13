@@ -35,6 +35,7 @@ interface ASS_Style {
     attribute long MarginR;
     attribute long MarginV;
     attribute long Encoding;
+    attribute double LineSpacing;
     attribute long treat_fontname_as_pattern;
     attribute double Blur;
     attribute long Justify;
