@@ -1,8 +1,8 @@
-[![Actions Status](https://github.com/passerbya/JavascriptSubtitlesOctopus/actions/workflows/emscripten.yml/badge.svg)](https://github.com/passerbya/JavascriptSubtitlesOctopus/actions/workflows/emscripten.yml?query=branch%3Amaster+event%3Apush)
+[![Actions Status](https://github.com/libass/JavascriptSubtitlesOctopus/actions/workflows/emscripten.yml/badge.svg)](https://github.com/libass/JavascriptSubtitlesOctopus/actions/workflows/emscripten.yml?query=branch%3Amaster+event%3Apush)
 
 
 SubtitlesOctopus displays subtitles in .ass format and easily integrates with HTML5 videos.
-Since it uses [libass](https://github.com/passerbya/libass), SubtitlesOctopus supports most
+Since it uses [libass](https://github.com/libass/libass), SubtitlesOctopus supports most
 SSA/ASS features and enables you to get consistent results in authoring and web-playback,
 provided libass is also used locally.
 
@@ -16,7 +16,7 @@ provided libass is also used locally.
 - Works fast (because uses WebAssembly with fallback to asm.js if it's not available)
 - Uses Web Workers thus video and interface doesn't lag even on "heavy" subtitles (working in background)
 - Doesn't use DOM manipulations and render subtitles on single canvas
-- Fully compatible with [libass'](https://github.com/passerbya/libass) extensions
+- Fully compatible with [libass'](https://github.com/libass/libass) extensions
   (but beware of compatability to other ASS-renderers when using them)
 - Easy to use - just connect it to video element
 
@@ -49,7 +49,7 @@ var instance = new SubtitlesOctopus(options);
 After that SubtitlesOctopus automatically "connects" to your video and it starts
 to display subtitles. You can use it with any HTML5 player.
 
-[See other examples](https://github.com/passerbya/JavascriptSubtitlesOctopus/tree/gh-pages/).
+[See other examples](https://github.com/libass/JavascriptSubtitlesOctopus/tree/gh-pages/).
 
 ### Using only with canvas
 You're also able to use it without any video. However, that requires you to set
@@ -198,7 +198,7 @@ simply will not draw anything in canvas, mostly on low end devices.
 
 ### Get the Source
 
-Run `git clone --recursive https://github.com/passerbya/JavascriptSubtitlesOctopus.git`
+Run `git clone --recursive https://github.com/libass/JavascriptSubtitlesOctopus.git`
 
 ### Build inside a Container
 #### Docker

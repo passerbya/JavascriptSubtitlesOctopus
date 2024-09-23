@@ -668,7 +668,6 @@ function onMessageFromMainEmscriptenThread(message) {
                     MarginR: styl_ptr.get_MarginR(),
                     MarginV: styl_ptr.get_MarginV(),
                     Encoding: styl_ptr.get_Encoding(),
-                    LineSpacing: styl_ptr.get_LineSpacing(),
                     treat_fontname_as_pattern: styl_ptr.get_treat_fontname_as_pattern(),
                     Blur: styl_ptr.get_Blur(),
                     Justify: styl_ptr.get_Justify()
